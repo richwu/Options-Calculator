@@ -45,9 +45,9 @@ class MainWindow(QMainWindow):
         self.btn_list = QPushButton(qtawesome.icon('fa.film'), '算法一览', self)
         self.btn_list.clicked[bool].connect(self.button_clicked)
         self.btn_list.setObjectName("left")
-        self.btn_about = QPushButton(qtawesome.icon('fa.star'), '关于我们', self)
-        self.btn_about.clicked[bool].connect(self.button_clicked)
-        self.btn_about.setObjectName("left")
+        # self.btn_about = QPushButton(qtawesome.icon('fa.star'), '关于我们', self)
+        # self.btn_about.clicked[bool].connect(self.button_clicked)
+        # self.btn_about.setObjectName("left")
         self.btn_quit = QPushButton(qtawesome.icon('fa.question'), '退出系统', self)
         self.btn_quit.clicked[bool].connect(self.button_clicked)
         self.btn_quit.setObjectName("left")
@@ -55,8 +55,8 @@ class MainWindow(QMainWindow):
         grid.addWidget(self.btn_input, 5, 0)
         grid.addWidget(self.btn_result, 6, 0)
         grid.addWidget(self.btn_list, 7, 0)
-        grid.addWidget(self.btn_about, 8, 0)
-        grid.addWidget(self.btn_quit, 9, 0)
+        # grid.addWidget(self.btn_about, 8, 0)
+        grid.addWidget(self.btn_quit, 8, 0)
 
         # 这里是每个功能键的页面
         self.page_welcome = page.page(grid, self)
@@ -99,7 +99,7 @@ class MainWindow(QMainWindow):
         self.btn_input.setStyleSheet('''QPushButton#left{background-color:}''')
         self.btn_result.setStyleSheet('''QPushButton#left{background-color:}''')
         self.btn_list.setStyleSheet('''QPushButton#left{background-color:}''')
-        self.btn_about.setStyleSheet('''QPushButton#left{background-color:}''')
+        # self.btn_about.setStyleSheet('''QPushButton#left{background-color:}''')
         self.btn_quit.setStyleSheet('''QPushButton#left{background-color:}''')
         btn.setStyleSheet('''QPushButton#left{background-color:white;
                             border-color: red;

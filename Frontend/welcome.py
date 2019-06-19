@@ -6,12 +6,12 @@ def welcome(page):
     # 标题
     label_main = QLabel()
     label_main.setFont(page.font_main)
-    label_main.setText(" 别来无恙")
+    label_main.setText(" 领峰期权定价测算（测试版）")
     page.grid.addWidget(label_main, 0, 0)
     # 文本
     label_content = QLabel()
     label_content.setFont(page.font_content)
-    label_content.setText("      且将新火试新茶。诗酒趁年华。\n      为你的期权接风涤尘。")
+    label_content.setText("      You are welcome to use this App -- Richard Wu\n      为你的期权接风涤尘。")
     page.grid.addWidget(label_content, 1, 0)
     # 开始探索图片
     hint = QLabel()

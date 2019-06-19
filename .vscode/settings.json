@@ -1,0 +1,11 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.condaPath": "D:/Project_Disk/Work/Work_env/Anaconda3_510/Scripts/conda.exe",
+    "python.terminal.executeInFileDir": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "git.ignoreLimitWarning": true,
+    "python.pythonPath": "/Users/richwu/work/work_env/anaconda_env/anaconda3/envs/r_py37/bin/python",
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true
+}

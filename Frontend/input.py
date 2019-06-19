@@ -6,7 +6,7 @@ def input(page):
     # 标题
     label_main = QLabel()
     label_main.setFont(page.font_main)
-    label_main.setText(" 指点江山")
+    label_main.setText(" 参数组合")
     page.grid.addWidget(label_main, 0, 0, 1, 4)
 
     # 选择当前时间
